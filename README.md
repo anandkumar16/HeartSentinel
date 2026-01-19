@@ -25,7 +25,7 @@ Cardiovascular diseases (CVDs) are the number one cause of death globally. This 
 ---
 
 ## Project Structure
-```bash
+```
 Heart_Stroke_Project/
 ├── app.py                 
 ├── train_model.py         
@@ -42,25 +42,21 @@ Follow these steps to run the project on your local machine:
 
 1. Clone the Repository
 
-Bash
 ```
-git clone (https://github.com/anandkumar16/HeartSentinel.git)
+git clone https://github.com/anandkumar16/HeartSentinel.git
 ```
 2. Install Dependencies
 
-Bash
 ```
 pip install -r requirements.txt
 ```
 3. Train the Model
 
-Bash
 ```
 python train_model.py
 ```
 4. Run the Application
 
-Bash
 ```
 streamlit run app.py
 ```
@@ -72,4 +68,5 @@ Why KNN? It is effective for classification tasks where relationships between ph
 Preprocessing: *Categorical features (Sex, ChestPainType, etc.) are converted to numeric via One-Hot Encoding*.
 
 Numerical features are scaled to a standard range to prevent larger values (like Cholesterol) from dominating the distance calculation.
+
 
